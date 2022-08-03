@@ -4,39 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Leaderboard</title>
+    <title>My Spaceships</title>
 <script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
 <body>
     <div class="container">
-        <div class="row">
-            <h1>Leaderboard</h1>
-        </div>
-        <section class="content">
-            <div class="board-list">
-                <div class="header">
-                    <h2>Recent scores</h2>
-                    <button type="submit" class="refresh-btn"> Refresh </button>
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="./assets/scifi.jpg" alt="logo">
                 </div>
-                <div class="body">
-                    <p class="error">No scores available. Click on the refresh button to get updates</p>
-                    <ul class="scores-list">
+                <div class="navlinks">
+                    <ul>
+                        <li><a href="#">Spaceship <span>6</span></span></a></li>
+                        <li><a href="#">Planets</a></li>
+                        <li><a href="#">Races</a></li>
                     </ul>
                 </div>
+            </nav>
+        </header>
+        <section class="spaceships">
+            <div class="spacecard"> 
+                 <img src="" alt="spaceship">
+                 <div class="card-desc">
+                    <li>space 1</li>
+                    <li><img src="" alt="love-icon" srcset=""> </li>
+                    <li>5 likes</li>
+                 </div>
+                 <div class="card-buttons">
+                    <button type="button" id="btn-comment" class="" >Comments</button>
+                    <button type="button" id="btn-reservation">Reservations</button>
+
+                 </div>
             </div>
-            <div class="board-create">
-                 <div class="header">
-                    <h2>Add your score</h2>
+            <div class="spacecard"> 
+                <img src="" alt="spaceship">
+                <div class="card-desc">
+                   <li>space 1</li>
+                   <li><img src="" alt="love-icon" srcset=""> </li>
+                   <li>5 likes</li>
                 </div>
-                <div class="body">
-                    <div id="form">
-                        <input type="text" id="name" name="name" placeholder="Your name">
-                        <input type="text" id="score" name="score" placeholder="Your score">
-                        <button type="submit" class="addScore">Submit</button>
-                    </div>
+                <div class="card-buttons">
+                   <button type="button" id="btn-comment" class="" >Comments</button>
+                   <button type="button" id="btn-reservation">Reservations</button>
+
                 </div>
+           </div>
+           <div class="spacecard"> 
+            <img src="" alt="spaceship">
+            <div class="card-desc">
+               <li>space 1</li>
+               <li><img src="" alt="love-icon" srcset=""> </li>
+               <li>5 likes</li>
             </div>
+            <div class="card-buttons">
+               <button type="button" id="btn-comment" class="" >Comments</button>
+               <button type="button" id="btn-reservation">Reservations</button>
+
+            </div>
+       </div>
+
         </section>
     </div>
-    <script src="main.js"></script>
+    <script src="bundle.js"></script>
 </body>
 </html>

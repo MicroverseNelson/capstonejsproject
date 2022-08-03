@@ -8,7 +8,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Leaderboard',
+      title: 'CapstoneJs',
       template: './src/index.html',
     }),
   ],
