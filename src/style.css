@@ -34,9 +34,14 @@ nav ul li {
   margin-right: 15px;
 }
 
+nav ul li:hover {
+  color: #1f0b03;
+  font-weight: bolder;
+}
+
 a {
   text-decoration: none;
-  color: blac
+  color:#b83b09;
 }
 
 .spaceships {
@@ -45,22 +50,35 @@ a {
   gap: 40px;
   justify-content: center;
   align-items: center;
+  margin-top: 40px;
 }
 .spaceships .spacecard {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  width: 200px;
+  width: 250px;
+  
 }
+
+.spaceships .spacecard img {
+  width: 250px;
+  height: 200px;
+}
+
 .spaceships .card-desc {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  margin-left: 18px;
 }
 
 .spaceships .card-desc li {
   list-style: none;
-  margin-right: 4px;
+  padding-left: 18px;
+}
+
+.spaceships .card-desc li .fa:active {
+  color:#b83b09;
 }
 
 .spaceships .spacecard .card-buttons {
@@ -87,7 +105,8 @@ a {
 }
 
 .card-buttons #btn-reservation:hover {
-  background: #b83b09;
+  background: #bb3e0d;
+  
 }
 
 footer {

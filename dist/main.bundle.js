@@ -15,7 +15,7 @@
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"html {\\n  box-sizing: border-box;\\n}\\n\\n*,\\n*::before,\\n*::after {\\n  box-sizing: inherit;\\n}\\n\\nbody {\\n  background-color: #f5f5f5;\\n  height: 100%;\\n}\\n\\nnav .logo,\\n img{\\n  width: 42px;\\n  height: 42px;\\n}\\n\\nnav,\\nul {\\n  display: flex;\\n  flex-direction: row;\\n  gap: 5px;\\n  justify-content: center;\\n  align-items: center;\\n}\\n\\nnav ul li {\\n  list-style: none;\\n  margin-left: 20px;\\n  margin-right: 15px;\\n}\\n\\na {\\n  text-decoration: none;\\n  color: blac\\n}\\n\\n.spaceships {\\n  display: flex;\\n  flex-direction: row;\\n  gap: 40px;\\n  justify-content: center;\\n  align-items: center;\\n}\\n.spaceships .spacecard {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 15px;\\n  width: 200px;\\n}\\n.spaceships .card-desc {\\n  display: flex;\\n  flex-direction: row;\\n  gap: 10px;\\n}\\n\\n.spaceships .card-desc li {\\n  list-style: none;\\n  margin-right: 4px;\\n}\\n\\n.spaceships .spacecard .card-buttons {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 10px;\\n}\\n\\n.card-buttons button {\\n  border: none;\\n  padding: 8px;\\n  border-radius: 5px;\\n}\\n\\n.card-buttons #btn-comment {\\n  background: #b83b09;\\n}\\n\\n.card-buttons #btn-comment:hover {\\n  background: #13bcda;\\n}\\n.card-buttons #btn-reservation {\\n  background-color: #13bcda;\\n}\\n\\n.card-buttons #btn-reservation:hover {\\n  background: #b83b09;\\n}\\n\\nfooter {\\n  text-align: center;\\n  padding: 20px;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://capstonejsproject/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"html {\\n  box-sizing: border-box;\\n}\\n\\n*,\\n*::before,\\n*::after {\\n  box-sizing: inherit;\\n}\\n\\nbody {\\n  background-color: #f5f5f5;\\n  height: 100%;\\n}\\n\\nnav .logo,\\n img{\\n  width: 42px;\\n  height: 42px;\\n}\\n\\nnav,\\nul {\\n  display: flex;\\n  flex-direction: row;\\n  gap: 5px;\\n  justify-content: center;\\n  align-items: center;\\n}\\n\\nnav ul li {\\n  list-style: none;\\n  margin-left: 20px;\\n  margin-right: 15px;\\n}\\n\\na {\\n  text-decoration: none;\\n  color: blac\\n}\\n\\n.spaceships {\\n  display: flex;\\n  flex-direction: row;\\n  gap: 40px;\\n  justify-content: center;\\n  align-items: center;\\n}\\n.spaceships .spacecard {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 15px;\\n}\\n\\n.spaceships .spacecard img {\\n  width: 100px;\\n  height: 100px;\\n}\\n\\n.spaceships .card-desc {\\n  display: flex;\\n  flex-direction: row;\\n  gap: 10px;\\n}\\n\\n.spaceships .card-desc li {\\n  list-style: none;\\n  margin-right: 4px;\\n}\\n\\n.spaceships .spacecard .card-buttons {\\n  display: flex;\\n  flex-direction: column;\\n  gap: 10px;\\n}\\n\\n.card-buttons button {\\n  border: none;\\n  padding: 8px;\\n  border-radius: 5px;\\n}\\n\\n.card-buttons #btn-comment {\\n  background: #b83b09;\\n}\\n\\n.card-buttons #btn-comment:hover {\\n  background: #13bcda;\\n}\\n.card-buttons #btn-reservation {\\n  background-color: #13bcda;\\n}\\n\\n.card-buttons #btn-reservation:hover {\\n  background: #b83b09;\\n}\\n\\nfooter {\\n  text-align: center;\\n  padding: 20px;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://capstonejsproject/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -41,14 +41,47 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 
 /***/ }),
 
-/***/ "./src/assets/images/scifi.jpg":
-/*!*************************************!*\
-  !*** ./src/assets/images/scifi.jpg ***!
-  \*************************************/
+/***/ "./src/assets/scifi.jpg":
+/*!******************************!*\
+  !*** ./src/assets/scifi.jpg ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/images/scifi.jpg\");\n\n//# sourceURL=webpack://capstonejsproject/./src/assets/images/scifi.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/scifi.jpg\");\n\n//# sourceURL=webpack://capstonejsproject/./src/assets/scifi.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/space3.jpeg":
+/*!********************************!*\
+  !*** ./src/assets/space3.jpeg ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/space3.jpeg\");\n\n//# sourceURL=webpack://capstonejsproject/./src/assets/space3.jpeg?");
+
+/***/ }),
+
+/***/ "./src/assets/space4.jpeg":
+/*!********************************!*\
+  !*** ./src/assets/space4.jpeg ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/space4.jpeg\");\n\n//# sourceURL=webpack://capstonejsproject/./src/assets/space4.jpeg?");
+
+/***/ }),
+
+/***/ "./src/assets/space5.jpeg":
+/*!********************************!*\
+  !*** ./src/assets/space5.jpeg ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/space5.jpeg\");\n\n//# sourceURL=webpack://capstonejsproject/./src/assets/space5.jpeg?");
 
 /***/ }),
 
@@ -146,7 +179,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _assets_images_scifi_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/scifi.jpg */ \"./src/assets/images/scifi.jpg\");\n\n\n\n\n\n\n\n//# sourceURL=webpack://capstonejsproject/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _assets_scifi_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/scifi.jpg */ \"./src/assets/scifi.jpg\");\n/* harmony import */ var _assets_space3_jpeg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/space3.jpeg */ \"./src/assets/space3.jpeg\");\n/* harmony import */ var _assets_space4_jpeg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/space4.jpeg */ \"./src/assets/space4.jpeg\");\n/* harmony import */ var _assets_space5_jpeg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/space5.jpeg */ \"./src/assets/space5.jpeg\");\n\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack://capstonejsproject/./src/index.js?");
 
 /***/ })
 
