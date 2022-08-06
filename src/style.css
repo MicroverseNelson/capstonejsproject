@@ -14,7 +14,7 @@ body {
 }
 
 nav .logo,
- img{
+img {
   width: 42px;
   height: 42px;
 }
@@ -41,7 +41,7 @@ nav ul li:hover {
 
 a {
   text-decoration: none;
-  color:#b83b09;
+  color: #b83b09;
 }
 
 .spaceships {
@@ -52,12 +52,12 @@ a {
   align-items: center;
   margin-top: 40px;
 }
+
 .spaceships .spacecard {
   display: flex;
   flex-direction: column;
   gap: 15px;
   width: 250px;
-  
 }
 
 .spaceships .spacecard img {
@@ -78,7 +78,7 @@ a {
 }
 
 .spaceships .card-desc li .fa:active {
-  color:#b83b09;
+  color: #b83b09;
 }
 
 .spaceships .spacecard .card-buttons {
@@ -100,13 +100,13 @@ a {
 .card-buttons #btn-comment:hover {
   background: #13bcda;
 }
+
 .card-buttons #btn-reservation {
   background-color: #13bcda;
 }
 
 .card-buttons #btn-reservation:hover {
   background: #bb3e0d;
-  
 }
 
 footer {
